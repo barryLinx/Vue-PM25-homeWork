@@ -1,0 +1,47 @@
+
+   .status-aqi1 {
+    background-color: #0bef4c;
+    
+  }
+  .status-aqi2 {
+    background-color: #ffff00;
+  }
+  .status-aqi3 {
+    background-color: #ff7e00;
+  }
+  .status-aqi4 {
+    background-color: #ff0000;
+  }
+  .status-aqi5 {
+    background-color: #8f3f97;
+  }
+  .status-aqi6 {
+    background-color: #7e0023;
+  }
+
+  header .Description{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+
+  header ul{
+    text-decoration: none;
+    list-style: none;
+  }
+  header li{
+    display: inline;
+    padding: 10px 15px;
+  }
+  .list-unstyled li:nth-child(1)
+  {
+    position: relative;
+  }
+
+  .AQI{   
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;    
+    float: right;
+  }
