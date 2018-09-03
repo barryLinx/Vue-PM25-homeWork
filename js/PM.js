@@ -59,8 +59,8 @@ Vue.component('pm-card', {
       methods: {
         getData() {
           const vm = this;
-          const api = 'http://opendata2.epa.gov.tw/AQI.json';
-    
+         // const api = 'http://opendata2.epa.gov.tw/AQI.json';
+           const api ='https://cors-anywhere.herokuapp.com/opendata2.epa.gov.tw/AQI.json';
           axios.get(api).then(function (response) {           
             vm.pmdata = response.data;
           }).catch(function (error) {
