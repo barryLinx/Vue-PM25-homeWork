@@ -1,6 +1,10 @@
 # 空氣品質指標PM2.5 
 
-![home](https://imgur.com/gGIJ46x)
+(https://imgur.com/gGIJ46x)
+
+## gitHub Pages
+
+- https://barrylinx.github.io/Vue-PM25-homeWork/.
 
 ## 參考自
 
