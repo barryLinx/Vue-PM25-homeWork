@@ -29,7 +29,8 @@ Vue.component('pm-card', {
           'status-aqi3': this.data.Status == '對敏感族群不健康',
           'status-aqi4': this.data.Status == '對所有族群不健康',
           'status-aqi5': this.data.Status == '非常不健康',
-          'status-aqi6': this.data.Status == '危害',        
+          'status-aqi6': this.data.Status == '危害',
+          'status-aqi7': this.data.Status == '設備維護',        
       }
      
     },   
