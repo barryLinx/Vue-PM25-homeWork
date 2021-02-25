@@ -60,9 +60,12 @@ var app = new Vue({
   methods: {
     getData() {
       const vm = this;
-      const api = 'http://opendata2.epa.gov.tw/AQI.json';
+      // const api = 'http://opendata2.epa.gov.tw/AQI.json';
+      const api = 'https://data.epa.gov.tw/api/v1/aqx_p_432?format=json&api_key=f72fe7f3-5981-476c-a1e9-4561d54d7b22';
       axios.get(api).then(function (response) {
-        vm.pmdata = response.data;
+        //console.log('res=>',response.data.records)
+        vm.pmdata = response.data.records;
+        console.log('vm',vm.pmdata);
       }).catch(function (error) {
         console.log('error');
       });

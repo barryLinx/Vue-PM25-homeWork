@@ -71,10 +71,10 @@
               <div class="card-body">
                 <ul class="list-unstyled">
                   <li >AQI 指數: <span :class="status">{{ data.AQI }}</span>  <span class="AQI" :class="status"></span></li>
-                  <li>PM2.5: {{ data['PM2.5'] }}</li>
+                  <li>PM2.5: {{ data['PM2.5_VG'] }}</li>
                   <li>說明: {{ data.Status }}</li>
                 </ul>
-              {{ data.PublishTime }}
+              {{ data.ImportDate }}
               </div> 
             </div>
           </script>
