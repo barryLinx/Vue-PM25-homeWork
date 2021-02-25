@@ -8,7 +8,7 @@
 
 ## 參考自
 
-- 六角學院作業
+- 線上課程
 
 - http://jsbin.com/gayijanatu/edit?js,output
 
