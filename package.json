@@ -1,0 +1,41 @@
+{
+  "name": "vue_pm2.5_git",
+  "version": "1.0.0",
+  "description": "(https://imgur.com/gGIJ46x)",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "watch": "cross-env NODE_ENV=development webpack --watch",
+    "start": "cross-env NODE_ENV=development webpack",
+    "dev": "cross-env NODE_ENV=development webpack serve --open "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barryLinx/Vue-PM25-homeWork.git"
+  },
+  "keywords": [
+    "Bootstrap-v4",
+    "webpack-v5",
+    "vue@2.6"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barryLinx/Vue-PM25-homeWork/issues"
+  },
+  "homepage": "https://github.com/barryLinx/Vue-PM25-homeWork#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "dotenv": "^8.6.0",
+    "dotenv-webpack": "^7.0.3",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
