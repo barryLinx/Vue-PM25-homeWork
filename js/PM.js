@@ -1,3 +1,5 @@
+//require('dotenv').config();
+import '../css/all.css';
 Vue.component('pm-card', {
   template: '#card',
   props: ['data', 'saveobj'],
@@ -61,7 +63,7 @@ var app = new Vue({
     getData() {
       const vm = this;
       // const api = 'http://opendata2.epa.gov.tw/AQI.json';
-      const api = 'https://data.epa.gov.tw/api/v1/aqx_p_432?format=json&api_key=f72fe7f3-5981-476c-a1e9-4561d54d7b22';
+      const api = `${process.env.API}${process.env.API_KEY}`;
       axios.get(api).then(function (response) {
         //console.log('res=>',response.data.records)
         vm.pmdata = response.data.records;
