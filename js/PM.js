@@ -1,5 +1,6 @@
 //require('dotenv').config();
 import '../css/all.css';
+
 Vue.component('pm-card', {
   template: '#card',
   props: ['data', 'saveobj'],
